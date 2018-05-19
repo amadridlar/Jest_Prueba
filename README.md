@@ -4,6 +4,8 @@
 Desde raiz del proyecto ejecutar 
 ``` npm test```
 
+Jest identifica como test todos los archivos cuya extensión sea ```.test.js```
+
 ## Ejecutar test con reporte de cobertura
 ### Opción 1
 Ejecutar desde raiz del proyecto ```npm test -- --coverage```
