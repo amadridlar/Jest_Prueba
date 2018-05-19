@@ -4,7 +4,7 @@
 Desde raiz del proyecto ejecutar 
 ``` npm test```
 
-## Ejecutar test con reporte de covertura
+## Ejecutar test con reporte de cobertura
 ### Opción 1
 Ejecutar desde raiz del proyecto ```npm test -- --coverage```
 
@@ -13,4 +13,4 @@ En el fichero ```jest.config.js```descomentar la siguiente linea
 ```
 //  "collectCoverage": true,
 ```
-Para ambas opciones el informe de covertura se guarda en el fichero ```test\reports\coverage```
+Para ambas opciones el informe de cobertura se guarda en el fichero ```test\reports\coverage```
