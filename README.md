@@ -16,3 +16,7 @@ En el fichero ```jest.config.js```descomentar la siguiente linea
 //  "collectCoverage": true,
 ```
 Para ambas opciones el informe de cobertura se guarda en el fichero ```test\reports\coverage```
+
+## Mockear dependencias
+Para mockear dependencias del módulo a testear hacemos uso del ```jest.mock()```y de ```jest.fn()```
+El archivo ```test/basic/getUser.test.js``` testea el módulo ```getUser.js``` directamente. El archivo ```test/withMocks/getUserWithMock.test.js``` también testea el módulo ```getUser.js```, pero mockeando las dependencias de este.
