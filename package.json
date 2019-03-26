@@ -3,18 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "jest.config.js",
-  "directories": {
-    "test": "test"
-  },
-  "dependencies": {
-    "jest": "^22.4.4",
-    "npm": "^6.0.1",
-    "update": "^0.7.4"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "jest"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amadridlar/Jest_Prueba.git"
@@ -24,5 +12,12 @@
   "bugs": {
     "url": "https://github.com/amadridlar/Jest_Prueba/issues"
   },
-  "homepage": "https://github.com/amadridlar/Jest_Prueba#readme"
+  "homepage": "https://github.com/amadridlar/Jest_Prueba#readme",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^22.4.4"
+  }
 }
