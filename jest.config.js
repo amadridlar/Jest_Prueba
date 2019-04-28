@@ -6,7 +6,6 @@ module.exports = {
   collectCoverageFrom: [
 	    'app/*.{js,jsx}',
 	    '!**/node_modules/**',
-	    '!**/vendor/**'
 	    ],
   coverageDirectory: 'test/reports/coverage',
 };
